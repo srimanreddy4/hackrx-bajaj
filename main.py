@@ -1,5 +1,3 @@
-# main.py (Final Optimized Version)
-
 import os
 import requests
 import tempfile
@@ -22,6 +20,7 @@ from langchain_groq import ChatGroq
 # --- API Keys ---
 # <-- PASTE YOUR GROQ KEY
 EXPECTED_BEARER_TOKEN = "67a31b16a70c71e4b6f37b9fb2a6e7ea81dc2da74219a281fdaac5935e076f07"  # <-- PASTE YOUR TEAM TOKEN
+
 
 # --- Global Cache & Models ---
 retriever_cache = {}
